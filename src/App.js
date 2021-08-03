@@ -162,7 +162,7 @@ function App() {
         <div id="naytapaiva">
           <h2>Show data by date</h2>
           <form onSubmit={naytaPaiva}>
-            <span>Kuukausi</span>
+            <span>Month</span>
             <select onChange={(e) => { setMonth(e.target.value); } }>
               <option value="01">Tammikuu</option>
               <option value="02">Helmikuu</option>
@@ -170,7 +170,7 @@ function App() {
               <option value="04">Huhtikuu</option>
             </select>
 
-            <span>Päivä</span>
+            <span>Day</span>
             <select onChange={(e) => { setPaiva(e.target.value); } }>
               <option value="01">1</option>
               <option value="02">2</option>
